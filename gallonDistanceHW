@@ -1,21 +1,17 @@
 #include <iostream>
 
-int gal;
-float city;
+
+float hw;
 float town;
 
 using namespace std;
-
 int main()
 {
-    cout << "Enter gallons of gas: ";
-    cin >> gal;
+    town=23.5/20;
+    hw= 28.9/20;
     
-    town=23.5 * gal;
-    city= 28.9*gal;
-    
-    cout << "Miles in the city: " << city;
-    cout << "\nMiles in town: " << town;
+    cout << "One gallon will travel on the highway: " << hw;
+    cout << "\nOne gallon will travel in town: " << town;
     
     return 0;
 }
