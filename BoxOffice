@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+ string name;
+ float adAm;
+ float chAm;
+
+ 
+ cout << "Name of movie:";
+ getline (cin, name);
+ cout << "Adult tickets sold: ";
+ cin >> adAm;
+ cout << "Child tickets sold: ";
+ cin >> chAm;
+ 
+ float gross = (chAm*3)+(adAm*6);
+ float net= gross*.20;
+ float dist=gross-net;
+ 
+ cout << "\nMovie Name: '" << name+"'";
+ 
+ printf("\nAdult Tickets Sold: %.2f\nChild Tickets Sold: %.2f\nGross Box Office Profit: %.2f\nAmount Paid to Distributor: -%.2f\nNet Box Office: %.2f\n"
+ ,adAm,chAm,gross,dist,net);
+ 
+}
