@@ -1,2 +1,4 @@
 # C-_classwork
-Classwork for spring 2020 C++
+
+
+This Repository contains all Classwork for spring 2020 C++
