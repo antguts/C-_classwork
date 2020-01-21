@@ -1,0 +1,20 @@
+#include <iostream>
+  using namespace std;
+  
+int main() {
+  //declare variable
+  int sec, minute, hour, day;
+  cout << "Enter seconds to be calculated: ";
+  cin >> sec;
+
+  //calculate the variables
+  if(sec>=86400){
+    cout << "Days: " << sec/86400;
+  } 
+  if(sec <86400 && sec >= 3600){
+    cout << "Hours: " << sec/3600;
+  } 
+  if(sec >=60 && sec < 3600){
+    cout << "Minutes: " << sec/60; 
+  } 
+}// end main
